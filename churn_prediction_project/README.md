@@ -6,7 +6,7 @@
 
 Predicting telecom customer churn using machine learning
 
-# Project Structure
+# Project Organization
 churn_prediction_project/  
 ├── .gitignore  
 ├── LICENSE  
