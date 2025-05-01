@@ -6,36 +6,36 @@
 
 Predicting telecom customer churn using machine learning
 
-## Project Organization
-churn_prediction_project/ 
-├── .gitignore
-├── LICENSE
-├── Makefile
-├── pyproject.toml
-├── README.md
-├── requirements.txt
-├── churn/
-│ ├── init.py
-│ ├── config.py
-│ ├── dataset.py
-│ ├── features.py
-│ ├── plots.py
-│ └── modeling/
-│ ├── init.py
-│ ├── predict.py
-│ └── train.py
-├── notebooks/
-│ ├── .gitkeep
-│ ├── eda-churn.ipynb
-│ ├── INST414_Sprint2.ipynb
-│ └── data/
-│ └── processed/
-│ └── churn_analysis_results.csv
-└── reports/
-├── .gitkeep
-├── INST414_Sprint 2_Revised_Assignment.pdf
-└── figures/
-└── .gitkeep
+# Project Structure
+churn_prediction_project/  
+├── .gitignore  
+├── LICENSE  
+├── Makefile  
+├── pyproject.toml  
+├── README.md  
+├── requirements.txt  
+├── churn/  
+│   ├── __init__.py  
+│   ├── config.py  
+│   ├── dataset.py  
+│   ├── features.py  
+│   ├── plots.py  
+│   └── modeling/  
+│       ├── __init__.py  
+│       ├── predict.py  
+│       └── train.py  
+├── notebooks/  
+│   ├── .gitkeep  
+│   ├── eda-churn.ipynb  
+│   ├── INST414_Sprint2.ipynb  
+│   └── data/  
+│       └── processed/  
+│           └── churn_analysis_results.csv  
+└── reports/  
+    ├── .gitkeep  
+    ├── INST414_Sprint2_Revised_Assignment.pdf  
+    └── figures/  
+        └── .gitkeep
 
 ## Dependencies
 
