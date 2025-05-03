@@ -1,4 +1,3 @@
-
 # Churn Prediciton Projct
 
 ## Projec Structure
