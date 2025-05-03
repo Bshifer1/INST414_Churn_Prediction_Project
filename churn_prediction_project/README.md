@@ -3,31 +3,31 @@
 
 ## Projec Structure
 
-├── churn
-│   ├── config.py
-│   ├── dataset.py
-│   ├── features.py
-│   ├── plots.py
-│   └── modeling
-│       ├── predcit.py
-│       └── train.py
-├── noteboks
-│   ├── eda-churn.ipynb
-│   └── data
-│       └── processed
-│           └── churn_analaysis_results.csv
-├── raw
-│   └── telco_churn.csv
-├── report
-│   ├── INST414_Sprint2_Reviced_Assignment.pdf
-│   ├── INST414_Sprint3.pdf
-│   └── figuers
-├── .gitignore
-├── LICENCE
-├── Makefile
-├── pyproject.toml
-├── requirments.txt
-└── README.md
+churn
+├── config.py
+├── dataset.py
+├── features.py
+├── plots.py
+└── modeling
+├── predict.py
+└── train.py
+notebooks
+├── eda-churn.ipynb
+└── data
+└── processed
+└── churn_analysis_results.csv
+raw
+└── telco_churn.csv
+reports
+├── INST414_Sprint2_Revised_Assignment.pdf
+├── INST414_Sprint3.pdf
+└── figures
+.gitignore
+LICENSE
+Makefile
+pyproject.toml
+requirements.txt
+README.md
 
 ## Dependencies
 To instll the required pacages, run:
