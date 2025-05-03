@@ -1,87 +1,80 @@
-# Churn prediction project
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+# Churn Prediciton Projct
 
-Predicting telecom customer churn using machine learning
+## Projec Structure
 
-# Project Organization
-churn_prediction_project/  
-├── .gitignore  
-├── LICENSE  
-├── Makefile  
-├── pyproject.toml  
-├── README.md  
-├── requirements.txt  
-├── churn/  
-│   ├── __init__.py  
-│   ├── config.py  
-│   ├── dataset.py  
-│   ├── features.py  
-│   ├── plots.py  
-│   └── modeling/  
-│       ├── __init__.py  
-│       ├── predict.py  
-│       └── train.py  
-├── notebooks/  
-│   ├── .gitkeep  
-│   ├── eda-churn.ipynb  
-│   ├── INST414_Sprint2.ipynb  
-│   └── data/  
-│       └── processed/  
-│           └── churn_analysis_results.csv  
-└── reports/  
-    ├── .gitkeep  
-    ├── INST414_Sprint2_Revised_Assignment.pdf  
-    └── figures/  
-        └── .gitkeep
+├── churn
+│   ├── config.py
+│   ├── dataset.py
+│   ├── features.py
+│   ├── plots.py
+│   └── modeling
+│       ├── predcit.py
+│       └── train.py
+├── noteboks
+│   ├── eda-churn.ipynb
+│   └── data
+│       └── processed
+│           └── churn_analaysis_results.csv
+├── raw
+│   └── telco_churn.csv
+├── report
+│   ├── INST414_Sprint2_Reviced_Assignment.pdf
+│   ├── INST414_Sprint3.pdf
+│   └── figuers
+├── .gitignore
+├── LICENCE
+├── Makefile
+├── pyproject.toml
+├── requirments.txt
+└── README.md
 
 ## Dependencies
+To instll the required pacages, run:
 
-To install the required packages, run:
+`pip isntall -r requirments.txt`
 
-pip install -r requirements.txt
+Main libaries used:
+- pandas
+- numppy
+- matplolib
+- seaborne
+- scikit-learn
+- jupyter
 
-Main libraries used:  
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-- jupyter  
+## Setting up the envirnment
+Create a virual enviroment:
 
-## Setting up the environment
+`python -m venv venv`
 
-Create a virtual environment:  
-python -m venv venv  
+Activate the environment:
 
-Activate the environment:  
-venv\Scripts\activate     (Windows)  
+`venv\Scripts\activate (Windows)`
 
-Install dependencies:  
-pip install -r requirements.txt  
 
-## Running the data pipeline
+Install dependencies:
 
-To prepare the data, run the following scripts:  
-python churn/dataset.py  
-python churn/features.py  
+`pip isntall -r requirments.txt`
 
-## Model training and prediction
+## Running the data pipline
+To perpare the data, run the following scrips:
 
-Train the model using:  
-python churn/modeling/train.py  
+`python churn/dataset.py`  
+`python churn/features.py`
 
-Generate predictions using:  
-python churn/modeling/predict.py  
+## Model trianing and predction
+Train the model using:
 
-## Reproducibility
+`python churn/modling/train.py`
 
-Follow these steps:  
-1. Run dataset.py  
-2. Run features.py  
-3. Train model with train.py  
-4. Predict with predict.py  
+Genrate predictions using:
+
+`python churn/modeling/predict.py`
+
+## Reproducbility
+Follow these steps:
+1. Run dataset.py
+2. Run features.py
+3. Train model with train.py
+4. Predict with predcit.py
 5. View results in notebooks/ or reports/
-
